@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scale_base_height="1920"
+        app:scale_base_width="1080">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="500"
+            app:scale_width="500"
+            app:scale_top="100"
+            app:scale_left="290"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="달콤함을 찾아다니는\n도시의 꿀벌들"
+            app:scale_height="400"
+            app:scale_top="550"
+            app:scale_textsize="60"
+            app:scale_width="1080" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/btn_kakao_login"
+            android:background="@drawable/kakao_account_login_btn_medium_wide"
+            app:scale_height="150"
+            app:scale_left="140"
+            app:scale_top="1050"
+            app:scale_textsize="50"
+            app:scale_width="800" />
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="150"
+            app:scale_left="140"
+            app:scale_top="1250"
+            app:scale_width="800"
+            android:id="@+id/btn_facebook_login"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:id="@+id/btn_sign_up"
+            app:scale_height="150"
+            app:scale_textsize="50"
+            app:scale_left="140"
+            app:scale_top="1420"
+            app:scale_width="800" />
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+</RelativeLayout>
