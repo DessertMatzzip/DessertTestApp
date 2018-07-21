@@ -2,4 +2,7 @@
     <string name="app_name">DessertTestApp</string>
     <string name="facebook_app_id">154535665319623</string>
     <string name="fb_login_protocol_scheme">fb154535665319623</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
